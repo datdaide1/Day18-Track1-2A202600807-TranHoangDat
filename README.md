@@ -8,8 +8,12 @@
 
 Tôi đã xây dựng một **Interactive Web Prototype** bằng HTML/CSS/JS thuần để mô phỏng chân thực trải nghiệm Chatbot AI (bao gồm UI, animations, và Flow control).
 
-👉 **Cách xem:** Mở file `prototype/index.html` bằng trình duyệt web của bạn (Chrome/Edge/Safari).
-Hoặc nếu bạn dùng VS Code, có thể mở bằng tính năng **Live Server**.
+👉 **Xem trực tiếp (Khuyến nghị):**
+[🔗 **Mở Web Prototype tại đây**](https://datdaide1.github.io/Day18-Track1-2A202600807-TranHoangDat/prototype/index.html)
+
+*(Lưu ý: Nếu link báo lỗi 404, bạn cần vào `Settings > Pages` trên kho lưu trữ GitHub của mình và bật Source là branch `gh-pages`)*
+
+👉 **Cách xem cục bộ:** Mở file `prototype/index.html` trong repository này bằng trình duyệt web của bạn.
 
 ---
 
