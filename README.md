@@ -4,11 +4,12 @@
 **Mã HV:** 2A202600807  
 **Dự án:** AI Trợ Lý Hỏi Đáp Học Vụ (AI Academic Advisor)
 
-## 📌 Liên kết Prototype
+## 📌 Cách xem Prototype
 
-*Vui lòng chèn liên kết tới bản prototype (Figma/Framer) của bạn vào đây. Hãy đảm bảo liên kết đã được cấp quyền "Anyone with the link can view".*
+Tôi đã xây dựng một **Interactive Web Prototype** bằng HTML/CSS/JS thuần để mô phỏng chân thực trải nghiệm Chatbot AI (bao gồm UI, animations, và Flow control).
 
-[👉 **Click vào đây để xem Prototype**](#)
+👉 **Cách xem:** Mở file `prototype/index.html` bằng trình duyệt web của bạn (Chrome/Edge/Safari).
+Hoặc nếu bạn dùng VS Code, có thể mở bằng tính năng **Live Server**.
 
 ---
 

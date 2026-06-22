@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Academic Advisor - Day 18 Prototype</title>
+    <!-- Modern Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons for UI Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar: Demo Path & Rationale -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Cấu trúc Prototype</h2>
+                <p>Day 18 - Track 1 - AI20k</p>
+            </div>
+            
+            <div class="scenario-nav">
+                <h3><i class='bx bx-map-alt'></i> Demo Path (Scenarios)</h3>
+                <button class="nav-btn active" onclick="app.loadScenario(1)">
+                    <span class="step">01</span>
+                    <span class="label">Onboarding (P0)</span>
+                </button>
+                <button class="nav-btn" onclick="app.loadScenario(2)">
+                    <span class="step">02</span>
+                    <span class="label">Yêu cầu mơ hồ (P1)</span>
+                </button>
+                <button class="nav-btn" onclick="app.loadScenario(3)">
+                    <span class="step">03</span>
+                    <span class="label">Agency / Nộp đơn (P3)</span>
+                </button>
+                <button class="nav-btn" onclick="app.loadScenario(4)">
+                    <span class="step">04</span>
+                    <span class="label">Không chắc chắn (P4)</span>
+                </button>
+                <button class="nav-btn" onclick="app.loadScenario(5)">
+                    <span class="step">05</span>
+                    <span class="label">Sai sót & Khôi phục (P5/P6)</span>
+                </button>
+            </div>
+
+            <!-- Design Rationale Box -->
+            <div class="rationale-panel" id="rationale-panel">
+                <h3><i class='bx bx-bulb'></i> Design Rationale</h3>
+                <div class="rationale-content" id="rationale-content">
+                    <!-- Dynamic content -->
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat App Mockup -->
+        <main class="chat-wrapper">
+            <div class="phone-frame">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="header-left">
+                            <div class="ai-avatar">
+                                <i class='bx bxs-bot'></i>
+                                <div class="online-indicator"></div>
+                            </div>
+                            <div class="ai-info">
+                                <h3>AI Trợ Lý Học Vụ</h3>
+                                <p>Sẵn sàng hỗ trợ 24/7</p>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </div>
+                    </div>
+
+                    <div class="chat-body" id="chat-body">
+                        <!-- Chat messages injected here by JS -->
+                    </div>
+
+                    <div class="chat-input-area" id="chat-input-area">
+                        <!-- Dynamic inputs based on scenario -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- System Feedback Toast -->
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
